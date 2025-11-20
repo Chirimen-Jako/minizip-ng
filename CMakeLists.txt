@@ -244,6 +244,7 @@ if(MZ_ZLIB)
         else()
             list(APPEND MINIZIP_DEP zlib)
         endif()
+
     else()
         message(STATUS "ZLIB library not found")
 
